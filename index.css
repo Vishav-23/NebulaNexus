@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f6fbc5;
+    font-family: "atyp-bl-variable",sans-serif;
+    font-variation-settings: 'wght' 280, 'ital' 0, 'opsz' 6;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    gap: 500px;
+    margin-top: 35px;
+}
+.logo{
+border: 2px solid black; 
+height: 75px;
+width: 75px;
+background-color: black;
+border-radius: 50%;
+}
+.nav-container{
+    justify-content: space-evenly;
+}
+.nav-container a{
+    color: rgb(83, 83, 83);
+text-decoration: none;
+word-spacing: 4spx;
+margin: 20px 20px;
+font-size: 22px;
+}
+.nav-container a:hover{
+color: darkgoldenrod;
+}
+
+/* MAIN */
+
+
+.outer-container{
+display: flex;
+justify-content: space-around;
+margin:40px 60px 0px;
+}
+.text{
+    margin-top: 20px;
+}
+.text h6{
+margin-top:40px;
+    font-size: 55px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    line-height: 70px;
+}
+.text h3{
+
+    font-size: 70px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    width: 500px;
+    line-height: 60px;
+}
+ .p1{
+    margin-top: 30px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    width: 650px;
+    color: rgb(83, 83, 83);
+}
+.p2{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    width: 550px;
+    color: rgb(83, 83, 83);
+}
+.p3{
+width: 580px;
+font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+font-size: 21px;
+color: rgb(83, 83, 83);
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    font-size: 26px;
+    padding: 5px 27px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+}
+.btn:hover{
+    background-color: darkgoldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outer-container-img img{
+    /* object-fit:fill; */
+    height: 630px;
+    mix-blend-mode:multiply;
+width: 500px;
+clip: rect(0px 0px 900px 0px);
+
+}
+
+
+
+@media (max-width:1024px){
+    header{
+        width: 1000px;
+        display: flex;
+        justify-content:space-around;
+        gap: 230px;
+        margin-top: 35px;
+    }
+    .outer-container{
+        /* border: 2px solid black; */
+        display: flex;
+        float: left;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+        margin:40px 30px ;
+        }
+        
+        .text{
+            margin-top: 20px;
+            /* border: 2px solid red; */
+    width: 680px;
+        }
+
+   
+    .outer-container-img img{
+        /* object-fit:fill; */
+        height: 570px;
+        mix-blend-mode:multiply;
+    width: 250px;
+    clip: rect(0px 0px 900px 0px);
+    
+    }
+}
+
+
+
+
+
+
